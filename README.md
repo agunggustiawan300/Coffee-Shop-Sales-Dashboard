@@ -75,4 +75,3 @@ Berikut adalah visualisasi dashboard untuk masing-masing cabang yang menunjukkan
 
 ### 🏁 Penulis
 **Dibuat oleh:** Agung Gustiawan  
-⭐ *Terima kasih telah melihat proyek ini. Silakan berikan **"Star"** jika Anda menemukan wawasan yang berguna!*
