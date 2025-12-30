@@ -32,16 +32,25 @@ Berikut adalah ringkasan performa finansial seluruh cabang selama Semester 1 - 2
 
 ---
 
-## 📍 Perbandingan Kinerja Cabang (Benchmarking)
-| Lokasi Toko | Total Revenue | Total Transaksi | AOV | Kesimpulan |
-| :--- | :---: | :---: | :---: | :--- |
-| **Hell's Kitchen** | **$236.511** | 71.737 | $4,66 | **Volume pendapatan tertinggi** |
-| **Astoria** | **$232.244** | 70.991 | $4,59 | Performa stabil dengan tren pemulihan konsisten |
-| **Lower Manhattan** | **$230.057** | **71.742** | **$4,81** | **Efisiensi tertinggi** dengan rata-rata belanja terbesar |
+### 📍 Perbandingan Performa per Lokasi (Benchmarking)
+
+Berikut adalah visualisasi dashboard untuk masing-masing cabang yang menunjukkan karakteristik unik di tiap lokasi:
+
+#### 1. Hell's Kitchen - The Revenue Leader
+![Dashboard Hell's Kitchen](HELLS_KITCHEN_DASHBOARD.png)
+* **Keterangan:** Merupakan cabang dengan **pendapatan tertinggi ($236.511)**. Lokasi ini memiliki volume transaksi yang sangat padat, menjadikannya tumpuan utama profitabilitas bisnis.
+
+#### 2. Astoria - The Stable Performer
+![Dashboard Astoria](ASTORIA_DASHBOARD.png)
+* **Keterangan:** Mencatatkan pendapatan sebesar **$232.244**. Cabang ini menunjukkan tingkat konsistensi yang tinggi dan menjadi lokasi yang paling stabil dalam mempertahankan tren pemulihan sejak bulan Maret.
+
+#### 3. Lower Manhattan - The Efficiency Leader
+![Dashboard Lower Manhattan](LOWER_MANHATTAN_DASHBOARD.png)
+* **Keterangan:** Meskipun secara total revenue berada di angka **$230.057**, cabang ini adalah yang **paling efisien** dengan **Average Order Value (AOV) tertinggi sebesar $4,81**. Ini mengindikasikan bahwa pelanggan di sini cenderung membeli paket bundling atau produk premium dalam satu kali transaksi.
 
 ---
 
-## 💡 RECOMMENDATION
+## 🚀 RECOMMENDATION
 
 1. **Lakukan evaluasi mendalam terhadap performa Februari** untuk mengidentifikasi apakah penurunan dipengaruhi oleh faktor eksternal (musiman, cuaca, jumlah hari operasional) atau faktor internal, guna menyusun strategi mitigasi untuk periode yang sama di tahun berikutnya.
 
