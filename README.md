@@ -1,69 +1,69 @@
-# ☕ Coffee Shop Sales Analysis Dashboard (Excel)
+# ☕ Dashboard Analisis Penjualan Coffee Shop (Excel)
 
-[![Dashboard Preview](revenue_all_stores.png)](revenue_all_stores.png)
-
----
-
-## 📋 Project Overview
-This project provides a comprehensive analysis of Coffee Shop sales and operational performance across three primary locations (Astoria, Hell's Kitchen, and Lower Manhattan) from January to June 2023. By processing over 214,000 transaction records using Microsoft Excel, this dashboard identifies growth trends and provides data-driven strategies to optimize business efficiency.
+[![Preview Dashboard](revenue_all_stores.png)](revenue_all_stores.png)
 
 ---
 
-## 🎯 Business Objectives
-* **Trend Analysis:** Identify monthly revenue fluctuations to mitigate seasonal risks.
-* **Operational Optimization:** Pinpoint peak hours for efficient staff management.
-* **Product Strategy:** Determine top-contributing products and customer preferences.
-* **Geographic Benchmarking:** Compare performance across branches for service standardization.
+## 📋 Ringkasan Proyek
+Proyek ini menyajikan analisis mendalam terhadap performa operasional dan penjualan Coffee Shop di tiga lokasi utama (Astoria, Hell's Kitchen, dan Lower Manhattan) untuk periode Januari hingga Juni 2023. Dengan mengolah lebih dari 214.000 data transaksi menggunakan Microsoft Excel, dashboard ini dirancang untuk mengidentifikasi tren pertumbuhan, pola perilaku pelanggan, serta memberikan strategi berbasis data untuk mengoptimalkan efisiensi bisnis.
 
 ---
 
-## 🔢 Key Performance Indicators (KPIs)
-* **Total Revenue:** $698,812
-* **Total Transactions:** 214,470
-* **Total Items Sold:** 149,116
-* **Average Order Value (AOV):** $4.69
+## 🎯 Tujuan Bisnis
+* **Analisis Tren:** Mengidentifikasi fluktuasi pendapatan bulanan untuk memitigasi risiko musiman.
+* **Optimasi Operasional:** Menentukan jam sibuk (*peak hours*) untuk manajemen staf yang lebih efisien.
+* **Strategi Produk:** Menentukan produk kontributor utama dan preferensi kategori pelanggan.
+* **Benchmarking Geografis:** Membandingkan performa antar cabang untuk standarisasi layanan.
 
 ---
 
-## 💡 Key Insights
-* **Revenue Rebound:** Revenue started at $81,678 in Jan, faced an 8% correction in Feb ($76,145), and followed a consistent recovery phase since March.
-* **Strong Growth:** From the Feb low, business rebounded strongly, reaching $166,486 in June—a cumulative growth of over 118% in four months.
-* **Peak Hours:** Transactions are highly concentrated between 07:00–10:00 AM, indicating coffee as a primary morning commute necessity.
-* **Top Products:** **Ethiopia** ($42,304) and **Sustainably Grown Organic** ($39,065) led in revenue, showing demand for premium specialty coffee.
-* **Location Leader:** **Hell's Kitchen** ($236,511) significantly outperformed Astoria and Lower Manhattan.
+## 🔢 Indikator Kinerja Utama (KPI)
+* **Total Pendapatan:** $698.812
+* **Total Transaksi:** 214.470
+* **Total Produk Terjual:** 149.116
+* **Rata-rata Nilai Pesanan (AOV):** $4,69
 
 ---
 
-## 🚀 Strategic Recommendations
-* **Seasonal Mitigation:** Conduct a deep dive into February's decline to build mitigation strategies for the following year.
-* **Service Throughput:** Implement "Express Lines" or add baristas during peak hours (07:00–10:00) to enhance customer speed.
-* **Non-Prime Programs:** Launch "Lunch Break Combo" promos between 11:00–14:00 to drive transactions during the post-morning lull.
-* **AOV Optimization:** Bundle premium Ethiopia coffee with brewing equipment to push AOV toward a $5.00+ target.
-* **Operational Benchmarking:** Replicate Hell's Kitchen's layout and service speed standards in other branches.
+## 💡 Insight Utama
+* **Pemulihan Pendapatan:** Pendapatan dimulai pada level $81.678 di bulan Januari, sempat mengalami penurunan 8% di Februari ($76.145), dan memasuki fase pemulihan yang konsisten sejak Maret.
+* **Pertumbuhan Kuat:** Bisnis bangkit kuat dari titik terendah Februari hingga mencapai $166.486 di bulan Juni—mencatat pertumbuhan kumulatif lebih dari 118% dalam empat bulan.
+* **Puncak Jam Sibuk:** Transaksi sangat terkonsentrasi antara pukul 07:00–10:00 pagi, dengan puncak pada pukul 10:00 pagi, menandakan kopi sebagai kebutuhan utama saat berangkat kerja.
+* **Produk Unggulan:** Produk **Ethiopia** ($42.304) dan **Sustainably Grown Organic** ($39.065) memimpin pendapatan, menunjukkan permintaan tinggi terhadap kopi spesialitas premium.
+* **Lokasi Terunggul:** **Hell's Kitchen** ($236.511) unggul secara signifikan dibandingkan cabang Astoria dan Lower Manhattan.
 
 ---
 
-## 🛠️ Technical Details
+## 🚀 Rekomendasi Strategis
+* **Mitigasi Musiman:** Melakukan evaluasi mendalam terhadap penurunan di bulan Februari untuk menyusun strategi mitigasi di tahun berikutnya.
+* **Kecepatan Layanan:** Menerapkan "Express Line" atau menambah staf barista pada jam sibuk pagi (07:00–10:00) untuk meningkatkan kepuasan pelanggan.
+* **Program Non-Sibuk:** Meluncurkan promo "Lunch Break Combo" antara pukul 11:00–14:00 untuk mendorong transaksi di saat jam sepi setelah masa sibuk pagi.
+* **Optimasi AOV:** Melakukan bundling kopi premium Ethiopia dengan peralatan seduh manual untuk mendorong AOV menuju target $5,00+.
+* **Benchmarking Operasional:** Mereplikasi standar tata letak dan kecepatan layanan dari cabang Hell's Kitchen ke cabang lainnya.
 
-| **Aspect** | **Details** |
+---
+
+## 🛠️ Detail Teknis
+
+| **Aspek** | **Keterangan** |
 | :--- | :--- |
-| **Tools Used** | Microsoft Excel, Power Query |
-| **Visual Types** | Line Chart, Clustered Column Chart, KPI Cards, Slicers |
-| **Data Source** | Coffee Shop Sales Transaction Dataset (2023) |
-| **Data Modeling** | Pivot Tables & Multi-source Data Aggregation |
-| **Purpose** | To analyze sales patterns and provide growth strategies |
-| **Project File** | `coffee_shop_sales_dashboard.xlsx` |
+| **Alat yang Digunakan** | Microsoft Excel, Power Query |
+| **Tipe Visualisasi** | Line Chart, Clustered Column Chart, KPI Cards, Slicers |
+| **Sumber Data** | Dataset Transaksi Penjualan Coffee Shop (2023) |
+| **Pemodelan Data** | Pivot Tables & Agregasi Data Multi-Sumber |
+| **Tujuan** | Menganalisis pola penjualan dan memberikan strategi pertumbuhan berbasis data |
+| **File Proyek** | `coffee_shop_sales_dashboard.xlsx` |
 
 ---
 
-## 🧠 Excel Data Analysis Skills Demonstrated
-* **Data Cleaning (Power Query):** Handling missing values, formatting dates, and extracting hour components for daily pattern analysis.
-* **Data Modeling:** Transforming over 214,000 rows of raw data into meaningful business metrics using Pivot Tables.
-* **Dynamic Dashboarding:** Designing interactive visuals with Slicers and Timelines for real-time data exploration.
-* **Business Storytelling:** Translating complex transaction data into actionable business narratives.
+## 🧠 Keahlian Analisis Data Excel yang Ditunjukkan
+* **Pembersihan Data (Power Query):** Menangani nilai yang hilang, memformat tanggal, dan mengekstrak komponen jam untuk analisis pola harian.
+* **Pemodelan Data:** Mengubah lebih dari 214.000 baris data mentah menjadi metrik bisnis yang bermakna menggunakan Pivot Tables.
+* **Dashboard Interaktif:** Merancang visual interaktif dengan Slicer dan Timeline untuk eksplorasi data secara real-time.
+* **Storytelling Data:** Menerjemahkan data transaksi yang kompleks menjadi narasi bisnis yang dapat ditindaklanjuti.
 
 ---
 
-### 🏁 Author
-**Created by:** Agung Gustiawan  
-⭐ *If you find this project helpful, give it a star on GitHub!*
+### 🏁 Penulis
+**Dibuat oleh:** Agung Gustiawan  
+⭐ *Jika proyek ini bermanfaat, berikan "Star" pada repositori ini!*
