@@ -1,71 +1,61 @@
-# ☕ Dashboard Analisis Penjualan Coffee Shop (Excel)
+# ☕ Coffee Shop Sales Performance Analysis (Excel Dashboard)
 
 [![Preview Dashboard](revenue_all_stores.png)](revenue_all_stores.png)
 
----
-
 ## 📋 Ringkasan Proyek
-Proyek ini menyajikan analisis mendalam terhadap performa operasional dan penjualan Coffee Shop di tiga lokasi utama: **Astoria, Hell's Kitchen, dan Lower Manhattan** untuk periode Januari hingga Juni 2023. Menggunakan lebih dari 214.000 data transaksi, dashboard ini dirancang untuk mengidentifikasi tren pertumbuhan dan memberikan strategi berbasis data guna meningkatkan efisiensi bisnis.
+Proyek ini merupakan analisis komprehensif terhadap performa operasional dan strategi penjualan Coffee Shop di tiga lokasi strategis: **Astoria, Hell's Kitchen, dan Lower Manhattan**. Dengan memproses lebih dari **214.470 baris data transaksi** mentah dari periode Januari hingga Juni 2023, proyek ini bertujuan untuk mengubah data menjadi wawasan bisnis (business insights) yang dapat dieksekusi guna mengoptimalkan pendapatan dan efisiensi layanan.
 
 ---
 
-## 🔢 Indikator Kinerja Utama (KPI) Keseluruhan
-* **Total Pendapatan:** $698.812
-* **Total Transaksi:** 214.470
-* **Total Produk Terjual:** 149.116
-* **Rata-rata Nilai Pesanan (AOV):** $4,69
+## 🔢 Indikator Kinerja Utama (KPI) Gabungan
+Berikut adalah ringkasan performa finansial seluruh cabang selama Semester 1 - 2023:
+* **Total Revenue:** $698.812
+* **Total Transactions:** 214.470
+* **Total Items Sold:** 149.116
+* **Average Order Value (AOV):** $4,69
 
 ---
 
-## 💡 Analisis Mendalam per Cabang (Benchmarking)
+## 💡 Insight Utama & Analisis Mendalam
 
-Berikut adalah perbandingan performa antar lokasi berdasarkan visualisasi dashboard:
+### 📈 Tren Penjualan & Pemulihan Bisnis
+* **Analisis Momentum:** Revenue dibuka pada level $81.678 di Januari, namun sempat mengalami koreksi sebesar 8% di Februari ($76.145) karena faktor musiman.
+* **Fase Rebound:** Sejak titik terendah di Februari, bisnis menunjukkan pemulihan yang sangat kuat dengan tren pertumbuhan positif yang konsisten hingga mencapai **$166.486 di bulan Juni**—mencatatkan pertumbuhan kumulatif lebih dari **118%** dalam empat bulan.
 
-| Lokasi Toko | Total Pendapatan | Total Transaksi | Nilai Pesanan Rata-rata (AOV) |
-| :--- | :---: | :---: | :---: |
-| **Hell's Kitchen** | **$236.511** | 71.737 | $4,66 |
-| **Astoria** | **$232.244** | 70.991 | $4,59 |
-| **Lower Manhattan** | **$230.057** | **71.742** | **$4,81** |
+### 🕒 Analisis Pola Waktu (Peak Hours)
+* **Morning Commute Necessity:** Aktivitas transaksi sangat terkonsentrasi pada jam pagi (**07:00–10:00**), dengan puncak revenue tertinggi terjadi tepat pada pukul **10:00**. Ini mengindikasikan kopi sebagai kebutuhan utama pelanggan saat jam berangkat kerja.
+* **Operational Gap:** Revenue melandai secara signifikan setelah pukul 10:00, menunjukkan adanya peluang besar yang belum tergarap pada jam makan siang dan sore hari.
 
-### 🔍 Temuan Utama:
-* **Pemimpin Revenue:** **Hell's Kitchen** memimpin secara keseluruhan pendapatan, menjadikannya cabang paling produktif di semester ini.
-* **Efisiensi Transaksi:** Meskipun pendapatan totalnya paling rendah, **Lower Manhattan** memiliki **AOV tertinggi ($4,81)**. Ini menunjukkan pelanggan di lokasi ini cenderung berbelanja lebih banyak dalam satu kali transaksi.
-* **Pola Waktu Puncak:** Lonjakan transaksi terjadi secara serentak pada pukul 07:00–10:00 pagi di seluruh lokasi, yang menunjukkan ketergantungan pelanggan pada kopi saat jam berangkat kerja.
-* **Produk Terlaris:** Biji kopi **Ethiopia** secara konsisten menjadi kontributor pendapatan nomor satu di semua cabang.
+### ☕ Analisis Produk & Preferensi Pelanggan
+* **Top Performance:** Produk **Ethiopia** menjadi kontributor revenue tertinggi sebesar **$42.304**, disusul oleh **Sustainably Grown Organic** ($39.065), menunjukkan preferensi pelanggan terhadap kopi spesialitas dan premium.
+* **Kategori Utama:** Minuman (Coffee & Tea) mendominasi total pendapatan, menegaskan minuman sebagai sumber pendapatan utama, sementara kategori Bakery berperan sebagai produk pendukung.
 
----
-
-## 🧠 Keahlian Analisis Data yang Ditunjukkan
-
-### 1. Data Cleaning & Transformation (Power Query)
-* Melakukan pembersihan data pada 214.000+ baris data transaksi mentah.
-* Melakukan ekstraksi waktu untuk analisis pola harian dan identifikasi jam sibuk (peak hours).
-* Menangani inkonsistensi data untuk memastikan akurasi perhitungan KPI.
-
-### 2. Data Modeling & Analysis
-* Membangun model data menggunakan **Pivot Tables** untuk agregasi cepat berdasarkan lokasi, waktu, dan kategori produk.
-* Menghitung metrik bisnis krusial seperti *Average Order Value* (AOV) untuk mengukur efektivitas penjualan di tiap toko.
-
-### 3. Business Intelligence & Storytelling
-* Menerjemahkan grafik tren bulanan menjadi rekomendasi strategi pemulihan pasca penurunan di bulan Februari.
-* Menyusun visualisasi interaktif dengan **Slicers** dan **Timeline** untuk memudahkan eksplorasi data secara mandiri.
+### 📍 Perbandingan Kinerja Cabang (Benchmarking)
+| Lokasi Toko | Total Revenue | Total Transaksi | AOV | Kesimpulan |
+| :--- | :---: | :---: | :---: | :--- |
+| **Hell's Kitchen** | **$236.511** | 71.737 | $4,66 | Cabang dengan volume pendapatan tertinggi |
+| **Astoria** | **$232.244** | 70.991 | $4,59 | Performa stabil dengan tren pemulihan konsisten |
+| **Lower Manhattan** | **$230.057** | **71.742** | **$4,81** | Efisiensi tertinggi dengan rata-rata belanja terbesar |
 
 ---
 
-## 🚀 Rekomendasi Strategis
-* **Scale-up Strategi AOV:** Menerapkan taktik up-selling yang sukses di Lower Manhattan ke cabang Astoria dan Hell's Kitchen untuk meningkatkan rata-rata belanja.
-* **Manajemen Staf:** Menambah jumlah barista pada jam sibuk pagi (07:00–10:00) untuk menjaga kecepatan layanan.
-* **Promosi Jam Non-Sibuk:** Meluncurkan paket "Lunch Break Combo" setelah pukul 11:00 pagi untuk mengisi penurunan volume transaksi di siang hari.
+## 🚀 Rekomendasi Strategis Berbasis Data
+
+1. **Strategi Mitigasi Penurunan:** Melakukan evaluasi mendalam terhadap anomali di bulan Februari guna menyusun rencana kontinjensi untuk menghadapi faktor eksternal di periode tahun mendatang.
+2. **Optimalisasi Service Throughput:** Menerapkan **Express Line** atau penambahan barista khusus pada jam sibuk pagi (07:00–10:00) untuk meningkatkan kecepatan layanan dan kepuasan pelanggan.
+3. **Program "Lunch Break Combo":** Meluncurkan paket promo antara pukul 11:00–14:00 guna mendorong transaksi di jam non-prime dan meningkatkan utilitas toko setelah jam sibuk pagi.
+4. **Peningkatan Average Order Value (AOV):** Fokus pada strategi *cross-selling* antara produk kopi premium dengan alat seduh manual atau paket bundling untuk mendorong AOV menuju target **$5,00+**.
+5. **Standardisasi Operasional:** Melakukan benchmark terhadap operasional **Hell's Kitchen** (layout dan penempatan menu) untuk diterapkan di Astoria dan Lower Manhattan guna mengangkat performa keseluruhan.
 
 ---
 
-## 🛠️ Detail Teknis
-* **Alat:** Microsoft Excel, Power Query.
-* **Tipe Visual:** Line Chart, Clustered Column Chart, KPI Cards, Interactive Slicers.
-* **File Utama:** `coffee_shop_sales_dashboard.xlsx`.
+## 🛠️ Metodologi & Detail Teknis
+* **Pembersihan Data (Power Query):** Mengolah 214k+ baris transaksi, menangani data kosong, dan melakukan ekstraksi komponen jam untuk analisis pola harian.
+* **Pemodelan Data:** Menggunakan **Pivot Tables** untuk agregasi metrik bisnis multi-dimensi berdasarkan waktu, lokasi, dan kategori produk.
+* **Desain Dashboard:** Menciptakan visualisasi interaktif dengan **Slicers** dan **Timeline** untuk memungkinkan eksplorasi data secara real-time.
 
 ---
 
 ### 🏁 Penulis
 **Dibuat oleh:** Agung Gustiawan  
-⭐ *Jika proyek ini memberikan wawasan baru bagi Anda, berikan "Star" pada repositori ini!*
+⭐ *Terima kasih telah melihat proyek ini. Silakan berikan "Star" jika Anda menemukan wawasan yang berguna!*
