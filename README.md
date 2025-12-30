@@ -7,17 +7,17 @@ Proyek ini merupakan analisis komprehensif terhadap performa operasional dan str
 
 ---
 
-## 🔍 Business Questions
-Analisis ini difokuskan untuk menjawab beberapa pertanyaan bisnis utama berikut:
-- Bagaimana tren revenue penjualan dari waktu ke waktu?
-- Kapan jam transaksi paling ramai dan bagaimana pola perilaku pelanggan?
-- Produk apa yang menjadi kontributor utama terhadap total revenue?
-- Cabang mana yang memiliki performa terbaik dan apa perbedaannya?
+## ❓ Business Questions
+Analisis ini bertujuan menjawab:
+- Bagaimana tren penjualan seiring waktu?
+- Kapan jam transaksi paling ramai?
+- Produk apa kontributor revenue terbesar?
+- Cabang mana yang paling unggul?
   
 ---
 
 ## 🛠️ Tools Used
-- Microsoft Excel (Power Query untuk data cleaning, Pivot Tables untuk analisis, Dashboard interaktif dengan Slicers & Timeline)
+- Microsoft Excel (Power Query, Pivot Table, Dashboard, Slicers, Timeline)
 
 ---
 
